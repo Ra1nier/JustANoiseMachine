@@ -23,6 +23,7 @@
 		3A0FB4EC2BDC6AEE00E12D09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A0FB4F32BDC6BBA00E12D09 /* SoundMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMachine.swift; sourceTree = "<group>"; };
 		3A0FB4F52BDC71DB00E12D09 /* classic-sound-machine-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "classic-sound-machine-sound.mp3"; sourceTree = "<group>"; };
+		3A30A6192D8636A600D46A03 /* Just-a-Noise-Machine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Just-a-Noise-Machine-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		3A0FB4E42BDC6AEC00E12D09 /* Just a Noise Machine */ = {
 			isa = PBXGroup;
 			children = (
+				3A30A6192D8636A600D46A03 /* Just-a-Noise-Machine-Info.plist */,
 				3A0FB4F32BDC6BBA00E12D09 /* SoundMachine.swift */,
 				3A0FB4E52BDC6AEC00E12D09 /* Just_a_Noise_MachineApp.swift */,
 				3A0FB4E72BDC6AEC00E12D09 /* ContentView.swift */,
@@ -288,9 +290,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Just a Noise Machine/Preview Content\"";
-				DEVELOPMENT_TEAM = 4VNTH4U6Z7;
+				DEVELOPMENT_TEAM = S5HWPQ3A4X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Just-a-Noise-Machine-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,9 +320,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Just a Noise Machine/Preview Content\"";
-				DEVELOPMENT_TEAM = 4VNTH4U6Z7;
+				DEVELOPMENT_TEAM = S5HWPQ3A4X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Just-a-Noise-Machine-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

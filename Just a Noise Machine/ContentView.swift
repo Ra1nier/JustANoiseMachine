@@ -1,13 +1,18 @@
 //
 //  ContentView.swift
-//  Just A Noice Machine
-//  Just a noise machine for sleeping. No fucking ads, no notications, and no tracking.
+//  Just A Noise Machine
+//
+//  This file contains all of the View components for the App.
 //
 //  Created by Max Broome on 4/7/24.
+//  Date Modified: 3/15/2025
 //
 
 import SwiftUI
 
+/**
+ Contians all of the view components for the Sound Machine App.
+ */
 struct ContentView: View {
     @State var hoursInput = 0
     @State var minutesInput = 0
@@ -98,7 +103,6 @@ struct ContentView: View {
                                         .frame(width: 200, height: 70)
                                         .overlay(
                                             Button("Start Noise Machine") {
-                                                timer?.invalidate()
                                                 soundMachine.startSoundMachine(soundFileName: "classic-sound-machine-sound", soundFileType: "mp3", hour: hoursInput, min: minutesInput, sec: secondsInput)
                                             })
                                         .position(x: 200, y: 0)
@@ -147,4 +151,3 @@ extension Color {
         )
     }
 }
-
